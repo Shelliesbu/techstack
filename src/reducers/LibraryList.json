@@ -1,0 +1,55 @@
+[
+
+  {
+    "id": 0,
+    "name": "Bathroom",
+    "description": "Clean floors, sink, mirror, toilet, and tub in hall bathroom"
+  },
+
+  {
+    "id": 1,
+    "name": "Dusting",
+    "description": "Dust all surfaces in the livingroom"
+  },
+
+  {
+    "id": 2,
+    "name": "Dishes",
+    "description": "Unload and load dishes into the dishwasher"
+  },
+  {
+    "id": 3,
+    "name": "Floors",
+    "description": "Sweep and mop floors in the kitchen"
+  },
+
+  {
+    "id": 4,
+    "name": "Hall closet",
+    "description": "Organize shoes in the hall closet"
+  },
+
+  {
+    "id": 5,
+    "name": "Bedroom",
+    "description": "Pick up toys and make bed"
+  },
+
+  {
+    "id": 6,
+    "name": "Vacuum",
+    "description": "Vacuum the livingroom, hallway, and bedroom floors"
+  },
+
+  {
+    "id": 7,
+    "name": "Linen Closet",
+    "description": "Organize linens and towels in closet"
+  },
+  {
+    "id": 8,
+    "name": "Mow",
+    "description": "Mow the Yard"
+  }
+
+]
