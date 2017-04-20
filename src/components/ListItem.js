@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Text, TouchableWithoutFeedback, View, LayoutAnimation } from 'react-native';
+import { UIManager, Text, TouchableWithoutFeedback, View, LayoutAnimation } from 'react-native';
 import { connect } from 'react-redux';
 import { CardSection } from './common';
 import * as actions from '../actions';
 
 class ListItem extends Component{
     componentWillUpdate() {
+        UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
         LayoutAnimation.spring();
     }
     renderDescription() {
@@ -20,7 +21,7 @@ class ListItem extends Component{
                 </CardSection>
             );
         }
-    };
+    }
 
     render() {
 
@@ -54,7 +55,7 @@ const styles = {
 };
 
 const mapStateToProps = (state, ownProps) => {
-    const expanded = state.selectedLibraryId === ownProps.library.id;
+    const expanded = state.selectedLibraryID === ownProps.library.id;
 
     return { expanded };
 };
